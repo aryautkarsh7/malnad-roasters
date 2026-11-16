@@ -24,9 +24,9 @@ export default function Home() {
           </div>
         </div>
         <div className="hero-shelf" aria-hidden="true">
-          <img src="/products/coorg.svg" alt="" />
-          <img src="/products/chikmagalur.svg" alt="" />
-          <img src="/products/morning-blend.svg" alt="" />
+          <img src="/products/coorg.jpg" alt="" />
+          <img src="/products/chikmagalur.jpg" alt="" />
+          <img src="/products/morning-blend.jpg" alt="" />
         </div>
       </section>
 

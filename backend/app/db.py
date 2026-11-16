@@ -75,7 +75,7 @@ SAMPLE_PRODUCTS = [
         "description": "Washed Arabica grown at 1,100 m on a shade estate near Mudigere. Medium roast. Milk chocolate, red apple and a clean, short finish. Works well in a pour over or a moka pot.",
         "price": 449,
         "stock": 40,
-        "image_url": "/products/chikmagalur.svg",
+        "image_url": "/products/chikmagalur.jpg",
     },
     {
         "id": "11111111-1111-1111-1111-111111111102",
@@ -84,7 +84,7 @@ SAMPLE_PRODUCTS = [
         "description": "Sun-dried natural process lot from Coorg. Medium-dark roast with dried fig, cocoa nibs and a heavy body. Good for espresso and for milk drinks.",
         "price": 479,
         "stock": 25,
-        "image_url": "/products/coorg.svg",
+        "image_url": "/products/coorg.jpg",
     },
     {
         "id": "11111111-1111-1111-1111-111111111103",
@@ -93,7 +93,7 @@ SAMPLE_PRODUCTS = [
         "description": "Honey processed Arabica from small farms around Sakleshpur. Light-medium roast. Brown sugar, orange peel and a soft acidity.",
         "price": 519,
         "stock": 4,
-        "image_url": "/products/sakleshpur.svg",
+        "image_url": "/products/sakleshpur.jpg",
     },
     {
         "id": "11111111-1111-1111-1111-111111111104",
@@ -102,7 +102,7 @@ SAMPLE_PRODUCTS = [
         "description": "Peaberry lot from the Baba Budangiri hills. Medium roast with a bright, tea-like cup and a hint of black pepper. Currently sold out until the next harvest.",
         "price": 549,
         "stock": 0,
-        "image_url": "/products/budangiri.svg",
+        "image_url": "/products/budangiri.jpg",
     },
     {
         "id": "11111111-1111-1111-1111-111111111105",
@@ -111,7 +111,7 @@ SAMPLE_PRODUCTS = [
         "description": "Our everyday blend of 80 percent Arabica and 20 percent Robusta, roasted medium-dark. Built for South Indian filter coffee with hot milk.",
         "price": 589,
         "stock": 60,
-        "image_url": "/products/morning-blend.svg",
+        "image_url": "/products/morning-blend.jpg",
     },
     {
         "id": "11111111-1111-1111-1111-111111111106",
@@ -120,7 +120,7 @@ SAMPLE_PRODUCTS = [
         "description": "70 percent coffee and 30 percent chicory, ground coarse for a decoction filter. Strong, dark and slightly bitter in the traditional way.",
         "price": 429,
         "stock": 35,
-        "image_url": "/products/chicory.svg",
+        "image_url": "/products/chicory.jpg",
     },
     {
         "id": "11111111-1111-1111-1111-111111111107",
@@ -129,7 +129,7 @@ SAMPLE_PRODUCTS = [
         "description": "Eight pre-portioned steep bags of coarse-ground Chikmagalur coffee. Steep in 500 ml of cold water for 14 hours in the fridge.",
         "price": 399,
         "stock": 18,
-        "image_url": "/products/cold-brew.svg",
+        "image_url": "/products/cold-brew.jpg",
     },
     {
         "id": "11111111-1111-1111-1111-111111111108",
@@ -138,7 +138,7 @@ SAMPLE_PRODUCTS = [
         "description": "Ceramic dripper, 40 paper filters and a 250 g bag of Morning Filter Blend. Everything needed to brew a first cup at home.",
         "price": 1299,
         "stock": 8,
-        "image_url": "/products/pour-over.svg",
+        "image_url": "/products/pour-over.jpg",
     },
     {
         "id": "11111111-1111-1111-1111-111111111109",
@@ -147,7 +147,7 @@ SAMPLE_PRODUCTS = [
         "description": "Hand-glazed stoneware mug with a wide base so it stays steady on a desk. Dishwasher and microwave safe.",
         "price": 349,
         "stock": 5,
-        "image_url": "/products/mug.svg",
+        "image_url": "/products/mug.jpg",
     },
 ]
 
