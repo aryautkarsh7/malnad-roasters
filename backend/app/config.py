@@ -13,10 +13,16 @@ SUPABASE_SERVICE_ROLE_KEY = os.environ.get("SUPABASE_SERVICE_ROLE_KEY", "")
 
 ALLOWED_ORIGINS = [
     o.strip()
-    for o in os.environ.get("ALLOWED_ORIGINS", "http://localhost:3000").split(",")
+    for o in os.environ.get(
+        "ALLOWED_ORIGINS",
+        "http://localhost:3000,http://127.0.0.1:3000,https://malnad-roasters.vercel.app",
+    ).split(",")
     if o.strip()
 ]
-ALLOWED_ORIGIN_REGEX = os.environ.get("ALLOWED_ORIGIN_REGEX") or None
+ALLOWED_ORIGIN_REGEX = (
+    os.environ.get("ALLOWED_ORIGIN_REGEX")
+    or r"^https:\/\/.*\.vercel\.app$"
+)
 
 IS_LOCAL_MODE = not (SUPABASE_URL and SUPABASE_ANON_KEY and SUPABASE_SERVICE_ROLE_KEY)
 
