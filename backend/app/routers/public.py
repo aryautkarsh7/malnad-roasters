@@ -8,6 +8,17 @@ from ..auth import current_user
 router = APIRouter()
 
 
+@router.get("/")
+async def root():
+    return {
+        "service": "Malnad Roasters API",
+        "status": "online",
+        "docs_url": "/docs",
+        "health_url": "/health",
+        "products_url": "/products",
+    }
+
+
 @router.get("/health")
 async def health():
     return {"status": "ok"}
