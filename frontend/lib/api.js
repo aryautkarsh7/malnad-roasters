@@ -1,6 +1,23 @@
 import { supabase } from "./supabase";
 
-const BASE = process.env.NEXT_PUBLIC_API_URL || "http://localhost:8000";
+function getBaseUrl() {
+  const envUrl = process.env.NEXT_PUBLIC_API_URL || "";
+  const matches = envUrl.match(/https?:\/\/[^\s"',()]+/g);
+  if (matches && matches.length > 0) {
+    const active = matches.find((u) => u === "https://malnad-roasters.onrender.com") || matches[0];
+    return active.replace(/\/+$/, "");
+  }
+  if (
+    typeof window !== "undefined" &&
+    window.location.hostname !== "localhost" &&
+    window.location.hostname !== "127.0.0.1"
+  ) {
+    return "https://malnad-roasters.onrender.com";
+  }
+  return "http://localhost:8000";
+}
+
+const BASE = getBaseUrl();
 const TIMEOUT_MS = 45000; // the free Render tier can take ~40 s to wake up
 
 export class ApiError extends Error {
